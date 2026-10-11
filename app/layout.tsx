@@ -19,6 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Seansım Merkez analytics (cookieless) */}
+        <script defer src="https://guzellik.seansim.com/t.js" data-site="toollab" />
+      </head>
       <body className="antialiased">
         <Script id="ms-clarity" strategy="afterInteractive">
           {`
